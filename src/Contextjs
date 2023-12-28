@@ -1,0 +1,32 @@
+
+
+context:
+<comp1>
+    color="red"
+<comp2 color={color}>
+
+</comp2>
+<comp3>
+    <comp4 color={color}>
+    </comp4>
+</comp3>
+
+<comp5>
+</comp5>
+
+</comp1>
+
+
+
+<comp1>
+    color="red"//Context set
+    
+    <comp2></comp2>  
+    <comp3></comp3>
+
+    <comp4>//context accesible
+        <comp5></comp5>
+    </comp4>
+   
+    
+    </comp1>
